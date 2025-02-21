@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <p>This Is My Work</p>
+    <p>Content by Aramish</p>
+
+    <button class="btn btn-primary" id="Btn"> Show</button>
+    <button class="btn btn-success" id="Btn1"> Hide</button>
+    <button class="btn btn-danger" id="Btn2"> Toggle</button>
+
+
+<script>
+$(document).ready(function(){
+
+
+// $('#p1').css("color","red");
+// $('#p1').css({"background-color":"red",
+//                "color":"white" });
+// $("#Btn").click(function(){
+// $("p").show();
+// });
+
+// $("#Btn1").click(function(){
+// $("p").hide();
+// });
+
+// $("#Btn2").click(function(){
+// $("p").toggle();
+// })
+
+
+
+$("#Btn").dblclick(function(){
+
+$("p").show();
+});
+
+
+$("#Btn1").mouseenter(function(){
+
+$("p").hide();
+
+});
+
+$("#Btn2").mouseleave(function(){
+
+$("p").toggle();
+
+});
+
+
+});
+
+</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
